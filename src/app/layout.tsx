@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Lato } from "next/font/google";
+import { Josefin_Sans, Lato } from "next/font/google";
 import "./globals.css";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair-display",
+const josefin = Josefin_Sans({
+  variable: "--font-heading",
   subsets: ["latin"],
+  weight: ["400", "600", "700"],
 });
 
 const lato = Lato({
@@ -17,6 +18,9 @@ export const metadata: Metadata = {
   title: "Sabor Ilhéu | Restaurante de Frutos do Mar — Barra da Lagoa, Floripa",
   description:
     "Restaurante 100% nativo especializado em frutos do mar à beira-mar na Barra da Lagoa, Florianópolis. Comida caseira, atendimento familiar, quase 10 anos de tradição. Das 10h às 18h.",
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "Sabor Ilhéu — Um sabor à beira-mar",
     description: "Restaurante 100% nativo de frutos do mar na Barra da Lagoa, Floripa.",
@@ -80,7 +84,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${playfair.variable} ${lato.variable} font-body antialiased min-h-screen flex flex-col`}
+        className={`${josefin.variable} ${lato.variable} font-body antialiased min-h-screen flex flex-col`}
       >
         {children}
       </body>

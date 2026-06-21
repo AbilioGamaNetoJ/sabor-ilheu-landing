@@ -15,7 +15,7 @@ const config: Config = {
         "terracota": "#D4744A",
       },
       fontFamily: {
-        heading: ["var(--font-playfair-display)", "serif"],
+        heading: ["var(--font-heading)", "sans-serif"],
         body: ["var(--font-lato)", "sans-serif"],
       },
     },

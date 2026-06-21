@@ -58,12 +58,12 @@ export default function HeroSection() {
           aria-hidden="true"
         />
 
-        <h1 className="font-heading font-bold leading-[1.05]">
-          <span className="block text-[3.25rem] md:text-[5rem] lg:text-[7rem] text-terracota leading-[1.05]">
-            Ilhéu,
+        <h1 className="font-heading font-bold leading-[1.1]">
+          <span className="block text-[2rem] md:text-[2.75rem] lg:text-[3.5rem] text-terracota tracking-[0.25em] uppercase">
+            Restaurante
           </span>
-          <span className="block text-[2rem] md:text-[3rem] lg:text-[3.75rem] text-white/95">
-            um sabor à beira-mar
+          <span className="block text-[3.25rem] md:text-[5rem] lg:text-[7rem] text-white/95 leading-[1.05]">
+            Sabor Ilhéu
           </span>
         </h1>
 
