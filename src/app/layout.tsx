@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
-import { Josefin_Sans, Lato } from "next/font/google";
+import { Lato } from "next/font/google";
 import "./globals.css";
-
-const josefin = Josefin_Sans({
-  variable: "--font-heading",
-  subsets: ["latin"],
-  weight: ["400", "600", "700"],
-});
 
 const lato = Lato({
   variable: "--font-lato",
@@ -84,7 +78,7 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${josefin.variable} ${lato.variable} font-body antialiased min-h-screen flex flex-col`}
+        className={`${lato.variable} font-body antialiased min-h-screen flex flex-col`}
       >
         {children}
       </body>
