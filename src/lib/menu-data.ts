@@ -23,7 +23,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       "Camarão à milanesa, alho e óleo, e ao molho especial. Acompanha arroz, batata frita e salada.",
     price: "R$ 89,90",
-    image: "/images/menu/prato-frutos-mar.jpg",
+    image: "/images/menu/sequencia-camarao.jpg",
     category: "pratos",
   },
   {
@@ -31,7 +31,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       "Filé de peixe grelhado na manteiga com legumes salteados. Acompanha arroz e salada da casa.",
     price: "R$ 69,90",
-    image: "/images/menu/prato-frutos-mar.jpg",
+    image: "/images/menu/peixe-grelhado.jpg",
     category: "pratos",
   },
   // Porções
@@ -40,7 +40,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       "Camarão empanado ou alho e óleo. Porção generosa para compartilhar.",
     price: "R$ 59,90",
-    image: "/images/menu/prato-frutos-mar.jpg",
+    image: "/images/menu/porcao-camarao.jpg",
     category: "porcoes",
   },
   {
@@ -48,7 +48,7 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       "Ostras frescas da região servidas com limão e molho especial.",
     price: "R$ 49,90",
-    image: "/images/menu/ostras-cerveja.jpg",
+    image: "/images/menu/porcao-ostras.jpg",
     category: "porcoes",
   },
   {
@@ -56,46 +56,32 @@ export const MENU_ITEMS: MenuItem[] = [
     description:
       "Pastéis crocantes recheados com camarão e catupiry. Acompanha molho especial.",
     price: "R$ 34,90",
-    image: "/images/menu/ostras-cerveja.jpg",
-    category: "porcoes",
-  },
-  {
-    name: "Iscas de Peixe",
-    description:
-      "Tiras de peixe empanadas crocantes. Acompanha molho tártaro e limão.",
-    price: "R$ 44,90",
-    image: "/images/menu/prato-frutos-mar.jpg",
+    image: "/images/menu/pasteis.jpg",
     category: "porcoes",
   },
   // Bebidas
   {
-    name: "Caipirinha",
+    name: "Caipirinha de Limão",
     description:
-      "Caipirinha tradicional de limão com cachaça artesanal.",
+      "Caipirinha tradicional de limão com cachaça artesanal e muito gelo.",
     price: "R$ 18,90",
-    image: "/images/menu/drinks-bar.jpg",
+    image: "/images/menu/caipirinha-limao.jpg",
     category: "bebidas",
   },
   {
-    name: "Drink Tropical",
+    name: "Caipirinha de Maracujá",
     description:
-      "Drink refrescante com frutas tropicais, vodka e água de coco.",
+      "Caipirinha tropical de maracujá com morango, cachaça artesanal e gelo.",
+    price: "R$ 22,90",
+    image: "/images/menu/caipirinha-maracuja.jpg",
+    category: "bebidas",
+  },
+  {
+    name: "Drink de Morango",
+    description:
+      "Drink refrescante de morango com frutas, vodka e muito gelo — com vista para o mar.",
     price: "R$ 24,90",
-    image: "/images/menu/drinks-bar.jpg",
-    category: "bebidas",
-  },
-  {
-    name: "Cerveja Artesanal",
-    description: "Cerveja artesanal local — IPA, Pilsen ou Witbier.",
-    price: "R$ 14,90",
-    image: "/images/menu/ostras-cerveja.jpg",
-    category: "bebidas",
-  },
-  {
-    name: "Água de Coco",
-    description: "Água de coco gelada natural.",
-    price: "R$ 8,90",
-    image: "/images/menu/drinks-bar.jpg",
+    image: "/images/menu/drink-morango.jpg",
     category: "bebidas",
   },
 ];

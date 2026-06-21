@@ -44,7 +44,7 @@ export default function Navbar() {
               <li key={link.href}>
                 <a
                   href={link.href}
-                  className={`font-body text-sm font-bold transition-colors hover:text-terracota ${
+                  className={`relative font-body text-sm font-bold transition-colors hover:text-terracota after:content-[''] after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-terracota after:transition-all after:duration-300 hover:after:w-full ${
                     scrolled ? "text-[#2D2D2D]" : "text-[#FAFAFA]"
                   }`}
                 >

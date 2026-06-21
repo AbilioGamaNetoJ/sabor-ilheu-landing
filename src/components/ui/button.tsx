@@ -18,11 +18,11 @@ type ButtonProps = {
 
 const variantStyles: Record<ButtonVariant, string> = {
   primary:
-    "bg-azul-mar text-white hover:bg-azul-mar/90 shadow-md hover:shadow-lg",
+    "bg-azul-mar text-white hover:bg-azul-mar/90 shadow-md hover:shadow-lg hover:scale-105",
   secondary:
-    "bg-terracota text-white hover:bg-terracota/90 shadow-md hover:shadow-lg",
+    "bg-terracota text-white hover:bg-terracota/90 shadow-md hover:shadow-lg hover:scale-105",
   outline:
-    "border-2 border-azul-mar text-azul-mar hover:bg-azul-mar hover:text-white",
+    "border-2 border-azul-mar text-azul-mar hover:bg-azul-mar hover:text-white hover:scale-105",
 };
 
 export default function Button({
