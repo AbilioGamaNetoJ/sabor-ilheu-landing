@@ -30,7 +30,7 @@ export default function Navbar() {
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-8">
           {/* Logo */}
           <a
-            href="#"
+            href="/"
             className={`font-heading text-xl transition-colors hover:text-terracota ${
               scrolled ? "text-azul-mar" : "text-white"
             }`}

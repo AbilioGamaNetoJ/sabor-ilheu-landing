@@ -64,16 +64,17 @@ export default function ContactSection() {
               <h3 className="mt-4 font-heading text-xl text-azul-mar">
                 WhatsApp
               </h3>
-              <p className="mt-2 font-body text-sm text-gray-700">
-                Faca sua reserva pelo WhatsApp!
-              </p>
-              <Button
-                variant="primary"
+              <a
                 href={formatWhatsAppUrl(SITE_CONFIG.whatsapp)}
-                className="mt-4 w-full"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-2 font-body text-lg font-bold text-verde-agua hover:text-terracota transition-colors block"
               >
-                Chamar no WhatsApp
-              </Button>
+                {SITE_CONFIG.phone}
+              </a>
+              <p className="mt-1 font-body text-sm text-gray-700">
+                Faça sua reserva pelo WhatsApp!
+              </p>
             </div>
           </ScrollReveal>
 
@@ -91,7 +92,7 @@ export default function ContactSection() {
                 {SITE_CONFIG.phone}
               </p>
               <p className="mt-1 font-body text-sm text-gray-700">
-                Ligue para informacoes
+                Ligue para informações
               </p>
             </div>
           </ScrollReveal>

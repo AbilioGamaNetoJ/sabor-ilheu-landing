@@ -36,8 +36,10 @@ export const SITE_CONFIG: SiteConfig = {
 };
 
 export const NAV_LINKS = [
-  { label: "Sobre", href: "#sobre" },
-  { label: "Cardápio", href: "#cardapio" },
-  { label: "Galeria", href: "#galeria" },
-  { label: "Contato", href: "#contato" },
+  { label: "Início", href: "/" },
+  { label: "Cardápio", href: "/#cardapio" },
+  { label: "Galeria", href: "/#galeria" },
+  { label: "Localização", href: "/#localizacao" },
+  { label: "Avaliações", href: "/#avaliacoes" },
+  { label: "Contato", href: "/#contato" },
 ] as const;

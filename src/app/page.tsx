@@ -1,7 +1,6 @@
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import HeroSection from "@/components/sections/hero-section";
-import AboutSection from "@/components/sections/about-section";
 import MenuSection from "@/components/sections/menu-section";
 import GallerySection from "@/components/sections/gallery-section";
 import LocationSection from "@/components/sections/location-section";
@@ -15,7 +14,6 @@ export default function Home() {
       <Navbar />
       <main>
         <HeroSection />
-        <AboutSection />
         <MenuSection />
         <GallerySection />
         <LocationSection />

@@ -26,6 +26,24 @@ export default function MenuSection() {
 
   return (
     <section id="cardapio" className="relative bg-white section-padding">
+      {/* Onda branca no topo — transição suave vinda do hero */}
+      <div
+        className="absolute top-0 left-0 right-0 z-10 overflow-hidden leading-none rotate-180"
+        aria-hidden="true"
+      >
+        <svg
+          viewBox="0 0 1440 80"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="none"
+          className="block w-full h-12 md:h-20"
+        >
+          <path
+            d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z"
+            fill="#FFFFFF"
+          />
+        </svg>
+      </div>
+
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
           <SectionHeading

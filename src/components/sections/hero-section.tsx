@@ -95,7 +95,7 @@ export default function HeroSection() {
         >
           <path
             d="M0,40 C360,80 1080,0 1440,40 L1440,80 L0,80 Z"
-            fill="#F5EFE6"
+            fill="#FFFFFF"
           />
         </svg>
       </div>
